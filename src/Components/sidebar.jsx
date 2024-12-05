@@ -1,8 +1,8 @@
-import React, { useContext, useState } from "react"
+import { useContext, useState } from "react"
 import { GiHamburgerMenu } from "react-icons/gi"
 import { FaPlus, FaRegMessage } from "react-icons/fa6"
 import "./sidebar.css"
-import { dataContext } from "../../context/UserContext"
+import { dataContext } from "../context/UserContext"
 
 function Sidebar() {
   const [extend, setExtend] = useState(false)

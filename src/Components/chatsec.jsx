@@ -1,10 +1,10 @@
 import { useContext } from 'react'
 import "./chatsec.css"
-import Darkmode from '../../Darkmode/Darkmode'
+import Darkmode from '../Darkmode/Darkmode'
 import { LuSendHorizonal } from "react-icons/lu";
-import { dataContext } from '../../context/UserContext';
-import ai from "../../assets/ai.png"
-import user from "../../assets/user.png"
+import { dataContext } from '../context/UserContext';
+import ai from "../assets/ai.png"
+import user from "../assets/user.png"
 
 
 function Chatsec() {
